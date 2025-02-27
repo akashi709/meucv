@@ -1,0 +1,68 @@
+
+    /* styles.css */
+    body {
+        font-family: Arial, sans-serif; /* aqui eu defino a fonte de letra do projeto */
+        }
+        .logo {
+        text-align: center;
+        margin-top: 50px;
+        }
+        .logo img {
+        max-width: 200px;
+        }
+        .container {
+        margin-top: 30px;
+        }
+        /* Estilização do formulário */
+        .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+
+        .bio-container {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Espaçamento entre a imagem e o texto */
+        }
+        
+        .bio-image {
+            width: 150px; /* Tamanho da imagem */
+            height: 150px;
+            border-radius: 50%; /* Faz a imagem ficar redonda */
+        }
+        
+        .bio-text {
+            font-size: 38px; /* Tamanho da fonte da mini bio */
+            max-width: 600px; /* Limita a largura do texto */
+        }
+        
+        .bio-text h2 {
+            margin: 0;
+            font-size: 40px;
+        }
+        
+        .bio-text p {
+            font-size: 38px;
+            color: #555;
+        }
+
+        
+        .social-icons li {
+            font-size: 50px; /* Aumenta o tamanho do ícone */
+        }
+        
+        .social-icons a {
+            color: #1DA1F2; /* Cor do Twitter */
+            transition: color 0.3s, transform 0.3s; /* Adiciona um efeito suave de transição */
+        }
+        
+        .social-icons a:hover {
+            color: #ff4500; /* Altera a cor ao passar o mouse */
+            transform: scale(1.2); /* Aumenta o ícone ao passar o mouse */
+        }
+        
